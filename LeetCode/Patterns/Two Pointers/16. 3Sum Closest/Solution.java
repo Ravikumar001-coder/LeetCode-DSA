@@ -7,7 +7,7 @@ class Solution {
         for( int i = 0; i < n-2; i++){
             
             int newTarget = target-nums[i];
-            int s = 1;
+            int s = i+1;
             int e = n-1;
             
             while(s<e){
